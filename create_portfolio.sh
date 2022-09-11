@@ -14,11 +14,15 @@ DIR="../autosite/$NAME-$YEAR"
 mkdir $DIR
 cp template.html "$DIR/index.html"
 cp template.css "$DIR/style.css"
+cp template.md "$DIR/README.md"
+cp fork.png "$DIR/fork.png"
 
 # replacing stuff
 sed -i '' "s/template\.css/style\.css/g" "$DIR/index.html"
 sed -i '' "s/VAR_NAME/$NAME/g" "$DIR/index.html"
 sed -i '' "s/VAR_SUMMARY/$SUMMARY/g" "$DIR/index.html"
+sed -i '' "s/VAR_LINK/https:\/\/uoftweb\.github\.io\/$NAME\//g" "$DIR/README.md"
+sed -i '' "s/VAR_NAME/$NAME/g" "$DIR/README.md"
 
 # create git project
 echo Initializing git
