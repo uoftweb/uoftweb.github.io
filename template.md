@@ -19,3 +19,11 @@ To make this project your own, follow the steps below. We assume you already hav
 Here are a few ways you can customize your website before you show it to employers:
 * Upload your most professional picture to replace the avatar
 * Add any project or work experience by copying the existing templates in `index.html`
+
+## About UofTWeb
+We want to make you a job-ready full-stack developer before the end of the year. Join us for:
+* Web development workshops twice a month
+* Mentored projects to show off on your resume
+* Social events to meet others with similar interests
+
+*Sign up today if you haven't already and join our discord at [https://www.uoftweb.dev](https://www.uoftweb.dev)*
