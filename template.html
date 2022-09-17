@@ -2,14 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="`template.css">
+    <title>VAR_NAME</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="static/granim.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <script defer src="https://kit.fontawesome.com/9306cde46d.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-    <h1>VAR_NAME</h1>
-    <h2>VAR_SUMMARY</h2>
-    <p></p>
+<script defer src="main.js"></script>
+<div class="header">
+
+    <div class="window">
+        <div class="w1">
+            <div id="circle1" class="circle red"><div class="btn">&#215</div></div>
+            <div id="circle2" class="circle yellow"><div class="btn">&#8212</div></div>
+            <div id="circle3" class="circle green"><div id="triangle1"></div><div id="triangle2"></div></div>
+        </div>
+
+        <div class="intro">
+
+            <div class="pic">
+            <!--Replace this with your own picture, and also on line 54-->
+                <img src="static/pic.jpeg" alt="judy">
+            </div>
+            <div class="intro-text">
+            <h1 id="name">VAR_NAME</h1>
+            <p>VAR_TAGLINE</p>
+
+            <!-- Here are some social links, feel free to replace them or add more (Github, resume, etc.) -->
+            <div class="social-buttons">
+                <!-- Add your LinkedIn URL here -->
+                <a href="#" target="_blank">
+                <i class="fa-brands fa-linkedin-in icon">
+                </i>
+                </a>
+                <!-- Add your email here -->
+                <a href="mailto:example@email.com" target="_blank">
+                <i class="fa-regular fa-envelope icon"></i>
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <canvas id="canvas-basic">
+    </canvas>
+
+    <div class="pic">
+    <!--Replace this with your own picture-->
+        <img src="static/pic.jpeg" alt="VAR_NAME">
+    </div>
+</div>
+<div class="bottom">
+    <div class="about-me">
+        <div class="title">
+            <div class="title-circle red"></div>
+            <h1>About Me</h1>
+        </div>
+        <p>VAR_ABOUTME</p>
+
+        <div class="skills">
+            <span class="skill-tag"> Python</span>
+            <span class="skill-tag"> HTML/CSS</span>
+        <!-- Add more skills here! -->
+        </div>
+    </div>
+
+    <div class="projects-section">
+        <div class="title">
+            <div class="title-circle yellow"></div>
+            <h1>Projects</h1>
+        </div>
+        <div class="project-list">
+            <div class="project">
+                <div>
+                <h2>Personal Website</h2>
+
+                <p>The website you're looking at right now was made by me!</p>
+                <div class="skills">
+                    <span class="skill-tag"> HTML/CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                </div>
+                </div>
+                <img src="static/webdev.png"/>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
